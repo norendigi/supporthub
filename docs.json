@@ -8,8 +8,15 @@
     "dark": "#15803D"
   },
   "navigation": {
-    "pages": [
-      "welcome"
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "welcome",
+          "terms",
+          "refunds"
+        ]
+      }
     ]
   },
   "logo": {
