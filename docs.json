@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "mint",
   "name": "Noren Support Hub",
   "colors": {
     "primary": "#16A34A",
@@ -59,11 +59,11 @@
   "icons": {
     "library": "fontawesome"
   },
-  "fonts": {
-    "family": "Plus Jakarta Sans"
-  },
   "metadata": {
     "timestamp": true
   },
-  "description": "Noren's Official Support Hub"
+  "description": "Noren's Official Support Hub",
+  "banner": {
+    "content": "Welcome to Noren's new support hub."
+  }
 }
