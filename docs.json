@@ -65,5 +65,8 @@
   "description": "Noren's Official Support Hub",
   "banner": {
     "content": "Welcome to Noren's new support hub."
+  },
+  "fonts": {
+    "family": "Plus Jakarta Sans"
   }
 }
