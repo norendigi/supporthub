@@ -1,0 +1,59 @@
+---
+title: "Setup"
+keywords:
+  - "nametags"
+  - "setup"
+---
+
+<Info>
+  Make sure that you've already completed the basics before setting up this product.
+</Info>
+
+<Steps>
+  <Step title="Insert the product">
+    Insert the product into `ServerScriptService` in your experience, as shown below.
+
+    <Tree>
+      <Tree.Folder name="game" defaultOpen openable>
+        <Tree.Folder name="ServerScriptService" defaultOpen>
+          <Tree.Folder name="Nametags by Noren" defaultOpen />
+        </Tree.Folder>
+      </Tree.Folder>
+    </Tree>
+  </Step>
+  <Step title="Set the CommunityId in the system configuration">
+    The Community ID setting is the first setting that you'll see when you open the SysConfig module.
+
+    Set the Community ID to the ID of your Roblox community. This can be found in the URL of your community, as shown below in bold and underlined.
+
+    https://www.roblox.com/communities/**<u>15748908</u>**/Noren-Digital#!/about
+
+    If you don't wish to set the Community ID, set it to **0**. However, community placeholders will be disabled.
+  </Step>
+  <Step title="You're ready!">
+    Your Nametags are now ready for use. You can customise more settings in the SysConfig to make Nametags yours.
+  </Step>
+</Steps>
+
+# Placeholders
+
+Nametags has built-in **placeholders** to expand the ways you're able to customise the system. See below for a list of placeholders you can use in SysConfig.
+
+## Player
+
+| Placeholder | Value |
+| :-: | --- |
+| \<username> | The Player's username |
+| \<userid> | The Player's user ID. |
+| \<displayname> | The Player's display name. |
+
+## Community
+
+<Note>
+  Community placeholders will be blank when Community ID is set to **0**.
+</Note>
+
+| Placeholder | Value |
+| :-: | --- |
+| \<role> | The Player's role in the community (e.g. Trainee) |
+| \<rank> | The Player's rank in the community (e.g. 255) |

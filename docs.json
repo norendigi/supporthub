@@ -23,7 +23,8 @@
           {
             "group": "Nametags",
             "pages": [
-              "untitled-page"
+              "nametags/features",
+              "nametags/setup"
             ]
           }
         ]
