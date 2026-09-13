@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "mint",
   "name": "Noren Support Hub",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0B1730",
+    "light": "#1764D8",
+    "dark": "#0B1730"
   },
   "navigation": {
     "groups": [
@@ -61,11 +61,11 @@
   },
   "errors": {
     "404": {
-      "redirect": true
+      "redirect": false
     }
   },
   "background": {
-    "decoration": "grid"
+    "decoration": "gradient"
   },
   "icons": {
     "library": "fontawesome"
