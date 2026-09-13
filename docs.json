@@ -16,12 +16,23 @@
           "terms",
           "refunds"
         ]
+      },
+      {
+        "group": "Products",
+        "pages": [
+          {
+            "group": "Nametags",
+            "pages": [
+              "untitled-page"
+            ]
+          }
+        ]
       }
     ]
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/images/Logo_Rounded.png"
   },
   "navbar": {
     "links": [],
@@ -64,9 +75,16 @@
   },
   "description": "Noren's Official Support Hub",
   "banner": {
-    "content": "Welcome to Noren's new support hub."
+    "content": "Welcome to Noren's new Support Hub, designed to help you even better.",
+    "dismissible": true
   },
-  "fonts": {
-    "family": "Plus Jakarta Sans"
+  "favicon": {
+    "light": "/images/Logo_Circle.png",
+    "dark": "/images/Logo_Circle.png"
+  },
+  "thumbnails": {
+    "fonts": {
+      "family": "Plus Jakarta Sans"
+    }
   }
 }
